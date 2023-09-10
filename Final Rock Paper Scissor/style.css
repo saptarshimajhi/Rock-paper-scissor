@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white;
+    padding: 20px;
+}
+
+header h1{
+    color: blueviolet;
+    text-align: center;
+    font: 2rem sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background-color: #24272E;
+}
+
+.scoreboard{
+    width: 200px;
+    height: 100px;
+    border: 2px solid white;
+    margin: 30px auto;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 40px;
+    position: relative;
+}
+
+.scoreboard
+.badge{
+    background-color: #E25840;
+    padding: 5PX;
+    font-size: 15px;
+}
+
+#user-label{
+    position: absolute;
+    left: -18px;
+    top: 30px;
+}
+
+#comp-label{
+    position: absolute;
+    right: -35px;
+    top: 30px;
+}
+
+.result{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;   
+}
+
+.choice img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+   margin: 0px 20px;
+   border-radius: 100px;
+   cursor: pointer;
+   opacity: 0.5;
+   transition: all 0.3s ease;
+}
+
+.choice img:hover{
+    opacity: 1;
+    box-shadow: 0px 0px 10px 10px greenyellow;
+}
+
+#action{
+    text-align: center;
+    color: white;
+    font: 3rem sans-serif;
+    margin: 30px ;
+}
+
+@media (max-width:550px) {
+
+    .choice img{
+        width: 85px;
+        height: 85px;
+    }
+    
+}
