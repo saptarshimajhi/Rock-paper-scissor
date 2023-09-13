@@ -23,6 +23,7 @@ body{
 #containbox{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .scoreboard{
